@@ -2,15 +2,19 @@
   "name": "website-starter",
   "version": "0.1.0",
   "description": "Starter für  eine (sehr) einfache Webseite",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
   },
-  "author": "",
+  "author": "Carsten Thiele",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
